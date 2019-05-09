@@ -3,6 +3,8 @@
   "plugins": ["prettier"],
   "rules": {
     "comma-dangle": 0,
+    "react/prefer-stateless-function": false,
+    "react/jsx-filename-extension": false,
     "prettier/prettier": [
       "error",
       {
